@@ -1,0 +1,31 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model ACS711KEXLT-15AB-T
+#/708045/23739/2.24/10/4/Integrated Circuit
+DEF ACS711KEXLT-15AB-T IC 0 30 Y Y 1 F N
+F0 "IC" 1150 300 50 H V L CNN
+F1 "ACS711KEXLT-15AB-T" 1150 200 50 H V L CNN
+F2 "EX-PACKAGE" 1150 100 50 H I L CNN
+F3 "http://www.allegromicro.com/en/Products/Current-Sensor-ICs/Zero-To-Fifty-Amp-Integrated-Conductor-Sensor-ICs/~/media/Files/Datasheets/ACS711-Datasheet.pdf" 1150 0 50 H I L CNN
+F4 "Hall Effect Linear Current Sensor with Overcurrent Fault Output for <100 V Isolation Applications" 1150 -100 50 H I L CNN "Description"
+F5 "" 1150 -200 50 H I L CNN "Height"
+F6 "Allegro Microsystems" 1150 -300 50 H I L CNN "Manufacturer_Name"
+F7 "ACS711KEXLT-15AB-T" 1150 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "" 1150 -500 50 H I L CNN "RS Part Number"
+F9 "" 1150 -600 50 H I L CNN "RS Price/Stock"
+DRAW
+X IP+ 1 0 0 200 R 50 50 0 0 B
+X IP- 2 0 -100 200 R 50 50 0 0 B
+X GND 3 0 -200 200 R 50 50 0 0 B
+X ~FAULT 4 0 -300 200 R 50 50 0 0 B
+X NC(1) 5 0 -400 200 R 50 50 0 0 B
+X NC(2) 6 1300 0 200 L 50 50 0 0 B
+X NC(3) 7 1300 -100 200 L 50 50 0 0 B
+X NC(4) 8 1300 -200 200 L 50 50 0 0 B
+X VOUT 9 1300 -300 200 L 50 50 0 0 B
+X VCC 10 1300 -400 200 L 50 50 0 0 B
+P 5 0 1 6 200 100 1100 100 1100 -500 200 -500 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TPS82140SILR
+D Non-Isolated DC/DC Converters 17V Input 2A Synchronous Step-Down Converter Module With Integrated MicroSiP    8-uSiP -40 to 125
+K
+F http://www.ti.com/lit/ds/symlink/tps82140.pdf
+$ENDCMP
+#
+#End Doc Library

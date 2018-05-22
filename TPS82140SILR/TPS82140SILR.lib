@@ -1,0 +1,30 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model TPS82140SILR
+#/910916/23739/2.24/9/4/Undefined or Miscellaneous
+DEF TPS82140SILR U 0 30 Y Y 1 F N
+F0 "U" 2150 300 50 H V L CNN
+F1 "TPS82140SILR" 2150 200 50 H V L CNN
+F2 "SIL0008D" 2150 100 50 H I L CNN
+F3 "http://www.ti.com/lit/ds/symlink/tps82140.pdf" 2150 0 50 H I L CNN
+F4 "Non-Isolated DC/DC Converters 17V Input 2A Synchronous Step-Down Converter Module With Integrated MicroSiP    8-uSiP -40 to 125" 2150 -100 50 H I L CNN "Description"
+F5 "" 2150 -200 50 H I L CNN "Height"
+F6 "Texas Instruments" 2150 -300 50 H I L CNN "Manufacturer_Name"
+F7 "TPS82140SILR" 2150 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "" 2150 -500 50 H I L CNN "RS Part Number"
+F9 "" 2150 -600 50 H I L CNN "RS Price/Stock"
+DRAW
+X EN 1 0 0 200 R 50 50 0 0 B
+X VIN 2 0 -100 200 R 50 50 0 0 B
+X GND 3 0 -200 200 R 50 50 0 0 B
+X VOUT(1) 4 0 -300 200 R 50 50 0 0 B
+X VOUT(2) 5 0 -400 200 R 50 50 0 0 B
+X FB 6 2300 0 200 L 50 50 0 0 B
+X PG 7 2300 -100 200 L 50 50 0 0 B
+X SS/TR 8 2300 -200 200 L 50 50 0 0 B
+X EXPOSED_THERMAL_PAD_(GND) 9 2300 -300 200 L 50 50 0 0 B
+P 5 0 1 6 200 100 2100 100 2100 -500 200 -500 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library
